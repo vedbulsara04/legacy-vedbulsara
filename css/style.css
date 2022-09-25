@@ -1,11 +1,66 @@
-body {
+body{
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-h1 {
-    margin-top: 0;
+
+h1{
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
 }
 
-div {
+h2{
+    font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+}
+
+.top-container{   
     background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+}
+
+.img_profile{
+    margin-top: 60px;
+    width: 270px;
+    height: 270px;
+}
+
+
+
+.img_skills{
+    width: 250px;
+    height: 250px;
+}
+
+.ved_skills{
+    margin-top: 55px;
+    width: 800px;
+    height: 510px;
+    margin-bottom: 55px;
+}
+
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.cloud1{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.cloud2{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
