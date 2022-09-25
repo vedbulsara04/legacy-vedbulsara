@@ -5,18 +5,46 @@ body{
 }
 
 
+.nav_bar{
+    overflow: hidden;
+    background-color: #003865;
+  }
+  
+  .nav_bar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 19px; /*height and width*/
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav_bar a:hover{
+    background-color: #A5F1E9;
+    color: black;
+  }
+  
+  .nav_bar a.active{
+    background-color: #FFEA11;
+    color: black;
+}
+  
+
 h1{
   margin-top: 0;
   font-family: 'Sacramento', cursive;
 }
 
+
 h2{
     font-family: "Montserrat", sans-serif;
 }
 
+
 h3{
     font-family: "Montserrat", sans-serif;
 }
+
 
 .top-container{   
     background-color: #E4F9F5;
@@ -24,21 +52,24 @@ h3{
     padding-top: 100px;
 }
 
+
 .middle-container{
+
 }
 
+
 .img_profile{
-    margin-top: 60px;
+    margin-top: 45px;
     width: 270px;
     height: 270px;
 }
-
 
 
 .img_skills{
     width: 250px;
     height: 250px;
 }
+
 
 .ved_skills{
     margin-top: 55px;
@@ -48,10 +79,10 @@ h3{
 }
 
 
-
 .pro{
     text-decoration: underline;
 }
+
 
 .cloud1{
     position: absolute;
@@ -59,8 +90,28 @@ h3{
     top: 50px;
 }
 
+
 .cloud2{
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.linkedin_logo{
+    margin-right: 35px;
+    width: 35px;
+    text-decoration: none;
+    height: 35px;
+}
+
+.github_logo{
+    margin-left: 22px;
+    width: 65px;
+    height: 35px;
+}
+
+.website_link{
+    text-decoration: none;
+    margin-left: 15px;
+    font-style: oblique;
 }
