@@ -9,19 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
     <style>
+      /*--------------------------------------------*/
       body{
         background-image: url('imgs/canada1.jpg');
         background-size: 100%;
       }
+
+      .placeholder{
+        font-size: 50px;
+      }
+
+      /*--------------------------------------------*/
       h3{
         margin-right: 25px;
         font-size: 17px;
         color: #513252;
         text-decoration: underline;
-        
       }
+      
+      /*--------------------------------------------*/
       .container{
         border: 4px solid #FFF80A;
         border-radius: 10px;
@@ -29,7 +39,7 @@
         height: 450px;
         padding: 15px;
       }
- 
+      /*------------------------*/
       .urname{
         margin-top: 25px;
         padding: 9px 5px;
@@ -38,11 +48,19 @@
         border-radius: 10px;
         transition: width 0.4s ease-in-out;
         text-align: center;
+        font-family: 'Ubuntu';
       }
+
+      .urname:hover{
+        background-color: #FEF5AC;
+      }
+
       .urname:focus{
         width: 235px;
+        background-color: #FEF5AC;
       }
- 
+      
+      /*------------------------*/
       .email{
         margin-top: 35px;
         padding: 9px 5px;
@@ -51,16 +69,25 @@
         border-radius: 10px;
         transition: width 0.4s ease-in-out;
         text-align: center;
+        font-family: 'Ubuntu';
       }
+
+      .email:hover{
+        background-color: #FEF5AC;
+      }
+
       .email:focus{
         width: 235px;
+        background-color: #FEF5AC;
       }
- 
+      
+      /*------------------------*/
       .urmessage{
         margin-top: 35px;
         margin-left: 0px;
         border: 3px solid #400D51;
         border-radius: 10px;
+        font-family: 'Ubuntu';
       }
       
       .urmessage:hover{
@@ -69,6 +96,11 @@
         border-radius: 10px;
       }
 
+      .urmessage:focus{
+        background-color: #FEF5AC;
+      }
+
+      /*------------------------*/
       .submit{
         margin-top: 35px;
         width: 80px;
@@ -77,13 +109,17 @@
         color: black;
         border: 2px solid #293462;
         border-radius: 10px;
+        font-family: 'Ubuntu';
       }
       .submit:hover{
+        font-size: 16px;
+        transition: 0.5s ease-in-out;
         border: 2px solid #FFF80A;
         background-color: #293462;
         color: #FFF80A;
       }
- 
+      
+      /*------------------------*/
       .reset{
         margin-left: 38px;
         margin-top: 35px;
@@ -93,18 +129,22 @@
         color: black;
         border: 2px solid #293462;
         border-radius: 10px;
+        font-family: 'Ubuntu';
       }
       .reset:hover{
+        font-size: 16px;
+        transition: 0.5s ease-in-out;
         border: 2px solid #FFF80A;
         background-color: #293462;
         color: #FFF80A;
       }
  
- 
+ /*--------------------------------------------*/
     </style>
+    </head>
 <body>
   
-  </head>
+  
   <div class="nav_bar" style="padding-left:16px; overflow-x:auto">
     <a href="home.html">🏠 Home</a>
     <a href="about.html">About me 🕵️‍♂️</a>
@@ -118,8 +158,8 @@
   <center>
   <div class="container">
 
-    <form action="mailto:vedbulsara7@yahoo.com" method="post" enctype="text/plain" autocomplete="off">
-      <input class="urname" type="text" placeholder="Full name" name="Your name"value="" required><br>
+    <form action="mailto:vedbulsara@proton.me" method="post" enctype="text/plain" autocomplete="off">
+      <input class="urname" type="text" placeholder="Full name" name="Your name" required><br>
 
       <input class="email" type="email" placeholder="Business / Personal E-mail" name="Your email" required><br>
 
@@ -129,7 +169,7 @@
 
       <input type="reset" class="reset" value="Reset">
    </div>
-   </center>
+  </center>
 
   </body>
 </html>

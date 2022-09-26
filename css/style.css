@@ -1,10 +1,25 @@
+/*-----------------------------------------------------*/
 body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 
+/*-----------------------------------------------------*/
+.cloud1{
+    position: absolute;
+    right: 280px;
+    top: 50px;
+}
 
+
+.cloud2{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/*-----------------------------------------------------*/
 .nav_bar{
     overflow: hidden;
     background-color: #003865;
@@ -22,46 +37,101 @@ body{
   .nav_bar a:hover{
     background-color: #A5F1E9;
     color: black;
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
   }
   
   .nav_bar a.active{
     background-color: #FFEA11;
     color: black;
 }
-  
 
+/*-----------------------------------------------------*/
 h1{
+  font-size: 40px;
   margin-top: 0;
   font-family: 'Sacramento', cursive;
 }
 
-
-h2{
-    font-family: "Montserrat", sans-serif;
+.hello_h1{
+    color: #829460;
 }
 
+.ved_h1{
+    margin-left: 25px;
+    color: #66BFBF;
+}
 
+.pro{
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
+}
+
+.pro:hover{
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
+    font-size: 32px;
+    transition: 0.7s all ease-in-out;
+}
+
+.programmer{
+    font-family: "Bungee Spice", sans-serif;
+    font-size: large;
+}
+
+.laptop_emo{
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
+    
+}
+
+.laptop_emo:hover{
+    font-size: 32px;
+    transition: 0.7s all ease-in-out;
+}
+
+/*-----------------------------------------------------*/
+h2{
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+/*-----------------------------------------------------*/
 h3{
     font-family: "Montserrat", sans-serif;
 }
 
-
+/*-----------------------------------------------------*/
+.profile{
+    background-color: #FCFFB2;
+    border: 2px solid #6F38C5;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+/*-----------------------------------------------------*/
 .top-container{   
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 25px;
 }
-
-
-.middle-container{
-
-}
-
 
 .img_profile{
-    margin-top: 45px;
+    margin-top: 25px;
     width: 270px;
     height: 270px;
+    transition: 0.7s all ease-in-out;
+}
+
+.img_profile:hover{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    border: 3px solid #87A2FB; 
+    border-radius: 135px;
+    transform: scale(1.2);
+
 }
 
 
@@ -78,40 +148,103 @@ h3{
     margin-bottom: 55px;
 }
 
-
-.pro{
-    text-decoration: underline;
+/*-----------------------------------------------------*/
+.contactme_hr{
+    border-top: 6px solid #5C2E7E;
 }
 
-
-.cloud1{
-    position: absolute;
-    right: 300px;
-    top: 50px;
+.contact-me{
+    border: 2px solid #6F38C5;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FCFFB2;
 }
 
-
-.cloud2{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+.getintouch{
+    margin-top: 12px;
 }
 
 .linkedin_logo{
-    margin-right: 35px;
+    margin-right: 0px;
     width: 35px;
     text-decoration: none;
     height: 35px;
 }
 
+.linkedin_logo:hover{
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.9s;
+}
+
 .github_logo{
-    margin-left: 22px;
-    width: 65px;
+    border-radius: 15px;
+    margin-left: 12px;
+    width: 35px;
     height: 35px;
+}
+
+.github_logo:hover{
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.9s;
+}
+
+.email_gif{
+    margin-left: 12px;
+    width: 35px;
+    height: 35px;
+}
+
+.email_gif:hover{
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.9s;
 }
 
 .website_link{
     text-decoration: none;
     margin-left: 15px;
     font-style: oblique;
+}
+
+.website_link:hover{
+    font-size: 20px;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+/*-----------------------------------------------------*/
+
+/* CSS for about.html */
+/*--------------------------*/
+.aboutme_h2{
+    margin-left: 0px;
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  .aboutme_h2:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.7s ease-out;
+  }
+  .aboutme_h2:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/*--------------------------*/
+.ved_pic{
+    margin-left: -700px;
+    width: 350px;
 }
