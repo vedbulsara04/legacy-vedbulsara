@@ -219,9 +219,20 @@ h3{
 /*-----------------------------------------------------*/
 
 /* CSS for about.html */
+
+/*--------------------------*/
+.ved_pic{
+    margin-top: 45px;
+    margin-left: 0px;
+    border: 3px solid #5C2E7E;
+    border-radius: 700px;
+    width: 350px;
+}
+
 /*--------------------------*/
 .aboutme_h2{
     margin-left: 0px;
+    margin-bottom:0px;
     display: inline-block;
     position: relative;
     color: #0087ca;
@@ -244,7 +255,3 @@ h3{
   }
 
 /*--------------------------*/
-.ved_pic{
-    margin-left: -700px;
-    width: 350px;
-}
