@@ -231,8 +231,9 @@ h3{
 
 /*--------------------------*/
 .aboutme_h2{
-    margin-left: 0px;
-    margin-bottom:0px;
+    margin-top: 64px;
+    margin-left: -10px;
+    margin-bottom:25px;
     display: inline-block;
     position: relative;
     color: #0087ca;
@@ -255,3 +256,107 @@ h3{
   }
 
 /*--------------------------*/
+.aboutme_html{
+    background-color: #E1FFB1;
+}
+
+.ul1{
+    margin-top: 105px;
+    margin-left: 155px;
+    width: 390px;
+    font-family: 'Hind';
+}
+
+.li1{
+    text-align: center;
+    
+}
+.diploma_span{
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
+}
+.diploma_span:hover{
+    font-size: larger;
+    transition: 0.7s all ease-in-out;
+}
+.keen_span{
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
+}
+.keen_span:hover{
+    font-size: larger;
+    transition: 0.7s all ease-in-out;
+}
+.linux_span{
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
+}
+.linux_span:hover{
+    font-size: larger;
+    transition: 0.7s all ease-in-out;
+}
+.py_span{
+    text-decoration: underline;
+    text-decoration-color: #6F38C5;
+}
+.py_span:hover{
+    font-size: larger;
+    transition: 0.7s all ease-in-out;
+}
+.li2{
+    margin-top: 25px;
+    
+}
+.li3{
+    margin-top: 25px;
+}
+
+/*--------------------------*/
+.cat_gif{
+    border: 4px solid #781C68;
+    border-radius: 100px;
+    margin-left: 650px;
+    margin-top: -295px;
+    margin-bottom: 25px;
+    width: 340px;
+    margin-left: ;
+}
+
+/*--------------------------*/
+.hr_cert{
+    border-top: 6px solid #5C2E7E;
+}
+
+.cert_h2{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+.cert_h2:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.7s ease-out;
+  }
+  .cert_h2:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.coursera_img{
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    
+}
+.a_cert{
+    margin-bottom: 55px;
+    margin-left: 45px;
+}
+
