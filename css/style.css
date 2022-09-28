@@ -8,23 +8,26 @@ body{
 /*-----------------------------------------------------*/
 .cloud1{
     position: absolute;
-    right: 280px;
-    top: 50px;
+    right: 290px;
+    top: 80px;
 }
-
-
 .cloud2{
     position: absolute;
     left: 300px;
     bottom: 300px;
 }
 
+.mountain_img{
+    margin-top: -55px;
+}
+
+
 /*-----------------------------------------------------*/
 .nav_bar{
     overflow: hidden;
     background-color: #003865;
+    position: relative;
   }
-  
   .nav_bar a{
     float: left;
     color: #f2f2f2;
@@ -33,14 +36,28 @@ body{
     text-decoration: none;
     font-size: 17px;
   }
-  
+  .nav_bar a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 1.4s ease-out;
+  }
   .nav_bar a:hover{
     background-color: #A5F1E9;
     color: black;
     text-decoration: underline;
     text-decoration-color: #6F38C5;
   }
-  
+  .nav_bar a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
   .nav_bar a.active{
     background-color: #FFEA11;
     color: black;
@@ -77,17 +94,6 @@ h1{
 .programmer{
     font-family: "Bungee Spice", sans-serif;
     font-size: large;
-}
-
-.laptop_emo{
-    text-decoration: underline;
-    text-decoration-color: #6F38C5;
-    
-}
-
-.laptop_emo:hover{
-    font-size: 32px;
-    transition: 0.7s all ease-in-out;
 }
 
 /*-----------------------------------------------------*/
@@ -265,6 +271,7 @@ h3{
     margin-left: 155px;
     width: 390px;
     font-family: 'Hind';
+    font-size: larger;
 }
 
 .li1{
@@ -316,17 +323,23 @@ h3{
     border: 4px solid #781C68;
     border-radius: 100px;
     margin-left: 650px;
-    margin-top: -295px;
+    margin-top: -325px;
     margin-bottom: 25px;
     width: 340px;
-    margin-left: ;
 }
-
+ 
 /*--------------------------*/
 .hr_cert{
     border-top: 6px solid #5C2E7E;
 }
-
+.cert_container{
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+    border: 3px solid #6F38C5;
+    border-radius: 50px;
+}
 .cert_h2{
     display: inline-block;
     position: relative;
@@ -344,19 +357,86 @@ h3{
     transform-origin: bottom right;
     transition: transform 0.7s ease-out;
   }
-  .cert_h2:hover:after{
+.cert_h2:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
+
+.cert_note{
+    text-decoration: underline;
+    font-family: 'Montserrat';
+}
 
 .coursera_img{
     width: 80px;
     margin-top: 50px;
-    margin-bottom: 55px;
-    
+    margin-bottom: 50px;
+    border-radius: 15px; 
 }
-.a_cert{
-    margin-bottom: 55px;
-    margin-left: 45px;
+.coursera_img:hover{
+    width: 95px;
+    transition-duration: 0.7s;
 }
 
+.simplilearn_img{
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px; 
+}
+.simplilearn_img:hover{
+    width: 95px;
+    transition-duration: 0.7s;
+}
+
+.udemy_img{
+    width: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px; 
+}   
+.udemy_img:hover{
+    width: 140px;
+    transition-duration: 0.7s;
+}
+
+.internshala_img{
+    width: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.internshala_img:hover{
+    width: 170px;
+    transition-duration: 0.7s;
+}
+
+.a_cert{
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Oswald';    
+    font-size: 16px;
+    position: relative;
+}
+.a_cert:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF1E1E;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.7s ease-out;
+  }
+.a_cert:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.cert_table{
+    margin-left: 75px;
+}
+
+/*--------------------------*/
