@@ -6,6 +6,28 @@ body{
 }
 
 /*-----------------------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb{
+    border-radius : 22px;
+    background: #47B5FF; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6F38C5;
+  }
+  
+/*-----------------------------------------------------*/
 .cloud1{
     position: absolute;
     right: 290px;
