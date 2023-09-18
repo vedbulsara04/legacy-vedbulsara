@@ -2,7 +2,7 @@
 ## Ved Bulsara's personal porfolio website  
 
 > - Website hosted by Netlify :
-    https://vedbulsara.netlify.app/
+    [https://vedbulsara.netlify.app/](https://legacy-vedbulsara.netlify.app/)
 
 
 > - Website hosted by Github page :
